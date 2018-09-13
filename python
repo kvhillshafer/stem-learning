@@ -1,0 +1,12 @@
+z score= (value picked - μ) / σ
+
+Where μ is the mean and σ is standard deviation of the Normal Distribution
+
+This formula can be coded in Python (in Python 3 Trinket) so that we can calculate z score of any value.
+ 
+mean_normal_dist = 75
+stddev_normal_dist = 7.5
+value_picked = 81.2
+
+z_score = (value_picked - mean_normal_dist) / stddev_normal_dist
+print ("The z-score is:", z_score)
